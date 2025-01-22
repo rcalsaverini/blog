@@ -8,9 +8,54 @@ menu:
   - ["Tags", "tags.html"]
   - ["Streams", "streams.html"]
   - ["Github", "https://github.com/rcalsaverini/"]
-  # - ["Follow me", "https://mastodon.social/@rcalsaverini"]
+  - ["Follow me", "https://bertha.social/@rcalsaverini"]
 
 
-# More options available to customize the website
-# read on https://rochacbruno.github.io/marmite/tag/customization.html
+pagination: 5
+toc: true
+json_feed: true
+
+tags_title: Tags
+archives_title: Arquivo 
+pages_title: Páginas
+authors_title: Autores
+search_title: Busca
+templates_path: templates
+static_path: static
+media_path: media
+enable_search: true
+default_date_format: "%A, %d %B %Y"
+default_author: rafael.calsaverini
+authors:
+  rafael.calsaverini:
+    name: Rafael Calsaverini
+    avatar: https://github.com/rcalsaverini.png
+    bio: Físico e executivo da área de dados e machine learning.
+    links:
+      - ["Mastodon", "https://bertha.social/@rcalsaverini"]
+      - ["Github", "https://github.com/rcalsaverini"]
+
+extra:
+  colorscheme_toggle: true
+  colorscheme: github
+  fediverse_verification: https://bertha.social/@rcalsaverini
+  comments:
+    title: Comentários
+    source: |
+        <script src="https://giscus.app/client.js"
+        data-repo="rcalsaverini/rcalsaverini.github.io"
+        data-repo-id="R_kgDONt_m0Q"
+        data-category="General"
+        data-category-id="DIC_kwDONt_m0c4CmPrT"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_protanopia"
+        data-lang="pt"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+        </script>
 

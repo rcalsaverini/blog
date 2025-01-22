@@ -9,6 +9,7 @@ tags:
 - Deep Learning
 author: Rafael S. Calsaverini
 draft: true
+stream: draft
 ---
 
 This is a short comment about something that occurred me while reading the recent paper Unsupervised Learning by Predicting Noise. Suppose we have a set of measurements of a variable $X$, which we assume were sampled from a distribution $p_{X}(x)$. 

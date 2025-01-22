@@ -11,7 +11,7 @@ tags:
   - Xenophobia
   - Moral growth
 author: Rafael S. Calsaverini
-draft: true
+stream: draft
 ---
 
 _This is a thought motivated by the [current story](https://www.theguardian.com/books/2018/jun/12/einsteins-travel-diaries-reveal-shocking-xenophobia) about racist and xenophobic remarks found in Albert Einstein's personal diaries._
