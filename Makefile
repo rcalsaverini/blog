@@ -1,8 +1,8 @@
-BUILD_DIR := build
+BUILD_DIR := ../build
 LATEX_IMGS_SRC_DIR := resources/latex-imgs
 LATEX_BUILD_DIR := $(BUILD_DIR)/latex
 IMGS_DIR := media
-SITE_DIR := rcalsaverini.github.io
+SITE_DIR := ../site
 SITE := $(SITE_DIR)/index.html
 
 LATEX_IMGS_SRC := $(wildcard $(LATEX_IMGS_SRC_DIR)/*.tex)
