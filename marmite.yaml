@@ -1,13 +1,16 @@
-name: Your Blog
-tagline: Things you talk about
+name: Agente Aleatório
+tagline: Constantemente aumentando a entropia do universo.
 url: https://rcalsaverini.github.io/blog
+colorscheme: nord
 menu:
   - ["About", "about.html"]
   - ["Pages", "pages.html"]
   - ["Tags", "tags.html"]
-  - ["Github", "https://github.com/rochacbruno/marmite"]
+  - ["Streams", "streams.html"]
+  - ["Github", "https://github.com/rcalsaverini/"]
   # - ["Follow me", "https://mastodon.social/@rcalsaverini"]
 
 
 # More options available to customize the website
 # read on https://rochacbruno.github.io/marmite/tag/customization.html
+

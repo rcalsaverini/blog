@@ -1,0 +1,32 @@
+\documentclass[tikz]{standalone}
+\begin{document}
+    \usetikzlibrary{shapes,arrows,positioning,automata}
+    \usetikzlibrary{matrix,arrows,decorations.pathmorphing}
+    \begin{tikzpicture}[auto,node distance=2.5cm, block/.style={color=black, align=center, minimum height=1cm, minimum width=1.5cm}, vec/.style={thick,color=black!50}]
+
+        \def \n {12}
+        \def \radius {4 cm}
+        \def \margin {7}
+
+        \def \notes {-5/B$\flat$, -4/F, -3/C, -2/G, -1/D, 0/A, 1/E, 2/B, 3/F$\sharp$, 4/D$\flat$, 5/A$\flat$, 6/E$\flat$}
+
+        \foreach \s/\key in \notes {
+          \def \start {360 * \s / \n + 15}
+          \def \end {360 * (\s - 1) / \n + 15}
+
+          \node[block, circle,color=violet] at ({90-\start}:\radius) (a\s) {\Large\key};
+          \draw[vec] ({\end+\margin}:\radius) arc ({\end+\margin}:{\start-\margin}:\radius);
+        }
+
+        \draw [thick,dashed,color=violet!30] (0, -\radius) -- (0, \radius);
+
+        \draw[latex-latex,color=violet!50,thick] (a0) to (a1);
+        \draw[latex-latex,color=violet!50,thick] (a2) to (a-1);
+        \draw[latex-latex,color=violet!50,thick] (a3) to (a-2);
+        \draw[latex-latex,color=violet!50,thick] (a4) to (a-3);
+        \draw[latex-latex,color=violet!50,thick] (a5) to (a-4);
+        \draw[latex-latex,color=violet!50,thick] (a6) to (a-5);
+
+    \end{tikzpicture}
+
+\end{document} 
