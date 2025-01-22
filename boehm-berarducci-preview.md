@@ -2,8 +2,8 @@
 title: Boehm-Beraducci encoding for trees in python - a preview
 date: 2019-01-21 00:00:00 -02:00
 permalink: "/posts/2019/01/boehm-berarducci-preview"
-stream: programming
 tags:
+- programming
 - Python
 - Functional programming
 - Type encodings

@@ -1,7 +1,6 @@
 ---
 title: Transforming modes
 date: 2021-02-22T00:03:05.420Z
-stream: music-theory
 tags:
   - Music Theory
   - Negative Harmony

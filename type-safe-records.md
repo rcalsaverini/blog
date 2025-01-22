@@ -2,8 +2,8 @@
 title: Type safe records as an excuse to learn type level programming in Haskell
 date: 2018-02-12 22:00:00 -02:00
 permalink: "/posts/2018/02/type-level-excuse"
-stream: programming
 tags:
+- programming
 - Haskell
 - Type safety
 - Records

@@ -4,7 +4,7 @@
     \usetikzlibrary{matrix,arrows,decorations.pathmorphing}
     \begin{tikzpicture}[
         auto,
-        node distance=2.5cm,
+        node distance=1.5cm,
         block/.style={color=black, align=center, minimum height=1cm, minimum width=1.5cm},
         vec/.style={thick,color=black!50}
       ]
@@ -20,9 +20,14 @@
         node[above,sloped,color=purple] at (-2.5, 4) {high brightness}
         node[midway,above,sloped,color=purple] at (-2.5, 0) {\textbf{Brightness Scale}}
         node[below,sloped,color=purple] at (-2.5, -4) {low brightness};
-      \draw (lyd.east) to node[auto, swap] {} (loc.east);
-      \draw (ion.east) to node[auto, swap] {} (phr.east);
-      \draw (mix.east) to node[auto, swap] {} (aeo.east);
-      \draw[bend left=90] (dor.30) to node[auto, swap] {} (dor.330);
+      
+      \path[<->]   (lyd.east) edge [bend left=30] (loc.east);
+      \path[<->]   (ion.east) edge [bend left=30] (phr.east);
+      \path[<->]   (mix.east) edge [bend left=30] (aeo.east);
+      \path[<->]   (dor.10) edge [bend left=30] (dor.350);
+      
+      % \draw (ion.east) to node[auto, swap] {} (phr.east);
+      % \draw (mix.east) to node[auto, swap] {} (aeo.east);
+      % \draw[bend left=90] (dor.30) to node[auto, swap] {} (dor.330);
     \end{tikzpicture}
 \end{document} 

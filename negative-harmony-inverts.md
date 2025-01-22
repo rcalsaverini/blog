@@ -1,13 +1,11 @@
 ---
 title: Negative Harmony inverts brightness of modes
 date: 2021-02-20T23:24:31.590Z
-stream: music-theory
 tags:
   - Music Theory
   - Negative Harmony
   - Set Theory (Music)
 author: Rafael S. Calsaverini
-draft: false
 slug: negative-harmony-inverts-brightness-modes
 ---
 
@@ -22,7 +20,16 @@ The change in sonority of those songs clearly indicated for me a change in the _
 There are many ways to understand negative harmony and I'm not going to pretend I'm able to give a full historical background. The video by the 12tone channel that I linked above does a much better job than I ever could. Here in this post I'm mainly interested in this as a transformation that can be applied to a particular set of notes, and that's how I'm going to describe and treat it.
 
 To understand what's the transformation being applied, consider the circle of fifths. In the key of C, the negative harmony transformation consists in swapping notes along the axis that cut the circle in half between the C and G.
-![The circle of fifths highlighting the negative harmony transformation in the key of C.](./media/negative_harm_C.svg)
+
+<center>
+<figure>
+  <object data=/media/negative_harm_C.svg width="320">
+  </object>
+  <figcaption>
+    The negative harmony transformation visualized in the Circle of Fifths
+  </figcaption>
+</figure>
+</center>
 
 The arrows above indicate the notes that are to be switched. So, to apply the negative harmony transformation in the key of C, one would change C for G, D for F, etc.
 
@@ -30,7 +37,15 @@ The arrows above indicate the notes that are to be switched. So, to apply the ne
 
 One aspect that is not often discussed about this transformation is that it is actually a **family of transformations** parameterized by a key center. Note that the reflection axis chosen above is only one chosen from 12 possibilities. To highlight this, notice that in the diagram above the transformation in the key of C takes F to D. In the diagram below we have transformation in the key of A, showing that in this case it takes F to A♭.
 
-![The circle of fifths highlighting the negative harmony transformation in the key of C.](./media/negative_harm_A.svg)
+<center>
+<figure>
+  <object data=/media/negative_harm_A.svg width="320">
+  </object>
+  <figcaption>
+    The circle of fifths highlighting the negative harmony transformation in the key of A.
+  </figcaption>
+</figure>
+</center>
 
 ## Transforming modes
 
@@ -56,10 +71,15 @@ Let's take this second stance and see what happens with all modes. Under this in
 
 Finally, here's the neat and interesting pattern to notice: if we ignore the roots, the quality of the modes above is transforming up and down the [Brightness Scale][brightness].
 
-
-![Brightness scale highlighting the negative harmony transformation.](./media/brightness_scale.svg)
-
-
+<center>
+<figure>
+  <object data=media/brightness_scale.svg width="320">
+  </object>
+  <figcaption>
+    Brightness scale highlighting the negative harmony transformation.
+  </figcaption>
+</figure>
+</center>
 
 The effect of the transformation is to reflect the qualities of the modes around the center of the brightness scale, inverting the value of the brightness for the mode in question (the brightest mode becomes the darkest, the second brightest becomes the second darkest, etc).
 

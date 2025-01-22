@@ -2,8 +2,8 @@
 title: Stochastic Processes as Monad Transformers
 slug: stochastic-processes-as-monad-transformers
 date: 2010-08-03
-stream: programming
 tags:
+  - programming
   - Haskell
   - Monad Transformers
   - Monads

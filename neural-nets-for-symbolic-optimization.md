@@ -1,7 +1,6 @@
 ---
 title: Could Neural Nets be used for Symbolic Optimization? Maybe.
 date: 2021-07-02T00:00:00.000Z
-stream: machine-learning
 tags:
   - Machine Learning
   - Neural Networks

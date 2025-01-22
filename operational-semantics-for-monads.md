@@ -2,9 +2,8 @@
 title: Operational Semantics for Monads]
 slug: operational-semantics-for-monads
 date: 2010-08-25
-stream: programming
-
 tags:
+- programming
 - Haskell
 - Monads
 - Operational Monads
